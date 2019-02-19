@@ -15,7 +15,7 @@ const AddTodo = memo(props => (
             </Grid>
             <Grid xs={2} md={1} item>
                 <Button fullwidth color="primary" variant="raised" onClick={props.onButtonClick}>
-                    Add
+                    Add Todo
                 </Button>
             </Grid>
         </Grid>
