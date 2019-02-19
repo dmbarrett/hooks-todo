@@ -5,6 +5,7 @@ import React, { memo } from 'react'
 const Todo = memo(props => (
     <ListItem divider={props.divider}>
         <Checkbox onClick={props.onCheckBoxToggle} checked={props.checked} disableRipple />
+        <ListItemText primary={props.text} />
         <ListItemSecondaryAction>
             <IconButton aria-label="Delete Todo" onClick={props.onButtonClick}>
                 <Delete/>
